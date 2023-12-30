@@ -1,5 +1,5 @@
 # dmenu version
-VERSION = 5.2
+VERSION = uwu
 
 # paths
 PREFIX = /usr/local
@@ -20,7 +20,7 @@ FREETYPEINC = /usr/include/freetype2
 #MANPREFIX = ${PREFIX}/man
 
 # includes and libs
-INCS = -I$(X11INC) -I$(FREETYPEINC)
+INCS = -Iinclude -I$(X11INC) -I$(FREETYPEINC)
 LIBS = -L$(X11LIB) -lX11 $(XINERAMALIBS) $(FREETYPELIBS)
 
 # flags
